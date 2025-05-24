@@ -11,14 +11,14 @@ import 'Areas_geometricas.dart';
 
 void main(List<String> arguments) {
   var n1, n2;
-  var valid=validaciones();
-  var con=constantes();
-  var fib=fibonacci();
-  var mh=menu_helper();
-  var np=numeros_primos();
-  var ob=operaciones_basicas();
-  var pi=pares_impares();
-  var ag=areas_geometricas();
+  var valid=Validaciones();
+  var con=Constantes();
+  var fib=Fibonacci();
+  var mh=Menu_helper();
+  var np=Numeros_primos();
+  var ob=Operaciones_basicas();
+  var pi=Pares_impares();
+  var ag=Areas_geometricas();
   int opc=0;
 while(opc!=9){
   print('===== CALCULADORA MATEMATICA AVANZADA =====');
@@ -68,11 +68,7 @@ while(opc!=9){
     n1=int.parse(stdin.readLineSync().toString());
     print("Ingrese el límite superior");
     n2=int.parse(stdin.readLineSync().toString());
-<<<<<<< HEAD
     pi.par_impar(n1,n2);
-=======
-    pi.par_impar(a,b);
->>>>>>> 14c71ad62ce04e3de2ac19ce5a498de239909e70
     break;
 
     case 7:
