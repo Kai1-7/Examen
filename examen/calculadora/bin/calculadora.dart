@@ -7,7 +7,7 @@ import 'menu_helper.dart';
 import 'numeros_primos.dart';
 import 'operaciones_basicas.dart';
 import 'pares_impares.dart';
-import 'areas_geometricas';
+import 'areas_geometricas.dart';
 
 void main(List<String> arguments) {
   var valid=validaciones();

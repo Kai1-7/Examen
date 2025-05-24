@@ -1,5 +1,5 @@
 import 'dart:math';
-import 'validaciones.dart'
+import 'validaciones.dart';
 void numeros_primos();
 void primos(int a, int b){
     if(valid.esRangoValido(a,b)){
