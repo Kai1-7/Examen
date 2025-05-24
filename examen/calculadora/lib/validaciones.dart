@@ -7,7 +7,11 @@ bool esEnteroValido(String entrada) {
 }
 
 bool esPositivo(double numero) {
-  return numero > 0;
+  if(esNumeroValido(numero)){
+    return numero > 0;
+  }else{
+    return false;
+  }
 }
 
 bool esRangoValido(int inicio, int fin) {

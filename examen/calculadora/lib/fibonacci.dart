@@ -1,5 +1,5 @@
 void fibonacci(int n){
-    int a=0, b=1;
+    int a=0, b=1, temp;
     if(n>0){
         for(int i=1; i<=n; i++){
             if(i==1){
