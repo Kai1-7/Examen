@@ -1,9 +1,10 @@
 import 'dart:io';
+import 'validaciones.dart';
 
 void suma(){
   print('Ingrese el primer numero: ');
   String? n1=stdin.readLineSync();
-  print('Ingrese el primer numero: ');
+  print('Ingrese el segundo numero: ');
   String? n2=stdin.readLineSync();
 
   if(n1 !=null && n2!=null){
@@ -20,7 +21,7 @@ void suma(){
 void resta(){
   print('Ingrese el primer numero: ');
   String? n1=stdin.readLineSync();
-  print('Ingrese el primer numero: ');
+  print('Ingrese el segundo numero: ');
   String? n2=stdin.readLineSync();
 
   if(n1 !=null && n2!=null){
@@ -38,7 +39,7 @@ void resta(){
 void multiplicacion(){
   print('Ingrese el primer numero: ');
   String? n1=stdin.readLineSync();
-  print('Ingrese el primer numero: ');
+  print('Ingrese el segundo numero: ');
   String? n2=stdin.readLineSync();
 
   if(n1 !=null && n2!=null){
@@ -56,7 +57,7 @@ void multiplicacion(){
 void division(){
   print('Ingrese el primer numero: ');
   String? n1=stdin.readLineSync();
-  print('Ingrese el primer numero: ');
+  print('Ingrese el segundo numero: ');
   String? n2=stdin.readLineSync();
 
   if(n1 !=null && n2!=null){
