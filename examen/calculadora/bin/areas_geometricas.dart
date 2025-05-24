@@ -34,7 +34,7 @@ void submenu(){
             if(valid.esPositivo(t1) && valid.esPositivo(t2)){
                 print("El area es "$rectangulo(t1, t2));
             }else{
-                print("Base o altura invalidas")
+                print("Base o altura invalidas");
             }
         break;
         case 3:

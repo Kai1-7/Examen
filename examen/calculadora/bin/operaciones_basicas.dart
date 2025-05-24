@@ -17,7 +17,7 @@ void suma(){
 
     print('El resultado es: $suma');
   }else{
-    print('Error al leer los numeros')
+    print('Error al leer los numeros');
   }
   
 }
@@ -34,7 +34,7 @@ void resta(){
 
     print('El resultado es: $resta');
   }else{
-    print('Error al leer los numeros')
+    print('Error al leer los numeros');
   }
   
 }
@@ -70,7 +70,7 @@ void division(){
 
     print('El resultado es: $div');
   }else{
-    print('Error al leer los numeros')
+    print('Error al leer los numeros');
   }
   
 }
