@@ -8,7 +8,7 @@ void suma(){
   print('Ingrese el segundo numero: ');
   String? n2=stdin.readLineSync();
 
-  if(valid.esEnteroValido(n1 !=null && n2!=null)){
+  if(valid.esEnteroValido(n1) && valid.esEnteroValido(n2)){
     int num1=int.parse(n1);
     int num2=int.parse(n1);
     int suma=num1+num2;
@@ -25,7 +25,7 @@ void resta(){
   print('Ingrese el segundo numero: ');
   String? n2=stdin.readLineSync();
 
-  if(valid.esNumeroValido(n1 !=null && n2!=null)){
+  if(valid.esEnteroValido(n1) && valid.esEnteroValido(n2)){
     int num1=int.parse(n1);
     int num2=int.parse(n1);
     int resta=num1-num2;
@@ -43,7 +43,7 @@ void multiplicacion(){
   print('Ingrese el segundo numero: ');
   String? n2=stdin.readLineSync();
 
-  if(valid.esEnteroValido(n1 !=null && n2!=null)){
+  if(valid.esEnteroValido(n1) && valid.esEnteroValido(n2)){
     int num1=int.parse(n1);
     int num2=int.parse(n1);
     int mul=num1*num2;
@@ -61,7 +61,7 @@ void division(){
   print('Ingrese el segundo numero: ');
   String? n2=stdin.readLineSync();
 
-  if(valid.noEsCero(n1 !=null && n2!=null)){
+  if(valid.esEnteroValido(n1) && valid.esEnteroValido(n2)){
     int num1=int.parse(n1);
     int num2=int.parse(n1);
     double div=num1/num2;
