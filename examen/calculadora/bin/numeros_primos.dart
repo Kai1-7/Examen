@@ -1,7 +1,9 @@
 import 'dart:math';
+import 'validaciones.dart'
 
 void primos(int a, int b){
-    for(int n=a; n<=b; n++){
+    if(valid.esRangoValido(a,b)){
+        for(int n=a; n<=b; n++){
         if(n>1){
             if(n==2){
                 print(n);    
@@ -22,4 +24,6 @@ void primos(int a, int b){
             }
         }
     }
+    }
+    
 }
