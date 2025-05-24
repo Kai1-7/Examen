@@ -58,7 +58,7 @@ while(opc!=9){
     print("Ingrese el límite inferior");
     n1=int.parse(stdin.readLineSync().toString());
     print("Ingrese el límite superior");
-    n2=int.parse(stding.readLineSync().toString());
+    n2=int.parse(stdin.readLineSync().toString());
     np.primos(n1, n2);
     break;
 
@@ -66,7 +66,7 @@ while(opc!=9){
     print("Ingrese el límite inferior");
     n1=int.parse(stdin.readLineSync().toString());
     print("Ingrese el límite superior");
-    n2=int.parse(stding.readLineSync().toString());
+    n2=int.parse(stdin.readLineSync().toString());
     pi.par_impar(a,b);
     break;
 
