@@ -1,8 +1,11 @@
 import 'package:calculadora/calculadora.dart' as calculadora;
 import 'dart:io';
+
+
 void main(List<String> arguments) {
-  var opc=stdin.readLineSync();
-do{
+  
+  int opc=0;
+while(opc!=9){
   print('===== CALCULADORA MATEMATICA AVANZADA =====');
   print('|1| Suma');
   print('|2| Resta');
@@ -15,9 +18,11 @@ do{
   print('|9| Salir');
   print('===========================================');
   print('|Seleccione una opcion del (1-9): '); 
-  opc;
-
-  switch(opc){
+  opc=int.parse(stdin.readLineSync().toString());
+  if(true){
+    switch(opc){
+    case 0:
+    break;
     case 1:
     break;
 
@@ -48,7 +53,9 @@ do{
     default:
     print('Ingrese un numero del (1-9)');
   }
-} while(opc!=9);
+} 
+  }
+  
 }
 
 
