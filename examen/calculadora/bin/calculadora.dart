@@ -7,6 +7,7 @@ import 'menu_helper.dart';
 import 'numeros_primos.dart';
 import 'operaciones_basicas.dart';
 import 'pares_impares.dart';
+import 'areas_geometricas';
 
 void main(List<String> arguments) {
   var valid=validaciones();
@@ -16,7 +17,7 @@ void main(List<String> arguments) {
   var np=numeros_primos();
   var ob=operaciones_basicas();
   var pi=pares_impares();
- 
+  var ag=areas_geometricas();
   int opc=0;
 while(opc!=9){
   print('===== CALCULADORA MATEMATICA AVANZADA =====');
@@ -27,7 +28,7 @@ while(opc!=9){
   print('|5| Numeros primos en un rango');
   print('|6| Numeros Pares e Impares en un rango');
   print('|7| Secuencia Fibonacci');
-  print('|8| Calculo de areas geomatricas');
+  print('|8| Calculo de areas geometricas');
   print('|9| Salir');
   print('===========================================');
   print('|Seleccione una opcion del (1-9): '); 
@@ -54,19 +55,32 @@ while(opc!=9){
     break;
 
     case 5:
+    print("Ingrese el límite inferior");
+    n1=int.parse(stdin.readLineSync().toString());
+    print("Ingrese el límite superior");
+    n2=int.parse(stding.readLineSync().toString());
+    np.primos(n1, n2);
     break;
 
     case 6:
+    print("Ingrese el límite inferior");
+    n1=int.parse(stdin.readLineSync().toString());
+    print("Ingrese el límite superior");
+    n2=int.parse(stding.readLineSync().toString());
+    pi.par_impar(a,b);
     break;
 
     case 7:
+    print("Ingrese la cantidad de elementos de la serie requeridos");
+    n1=int.parse(stdin.readLineSync().toString);
+    fib.fibonacci_(n1);
     break;
 
     case 8:
+    ag.submenu();
     break;
 
     case 9:
-    break;
 
     default:
     print('Ingrese un numero del (1-9)');
