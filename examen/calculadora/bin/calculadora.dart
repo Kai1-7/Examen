@@ -68,7 +68,11 @@ while(opc!=9){
     n1=int.parse(stdin.readLineSync().toString());
     print("Ingrese el límite superior");
     n2=int.parse(stdin.readLineSync().toString());
+<<<<<<< HEAD
     pi.par_impar(n1,n2);
+=======
+    pi.par_impar(a,b);
+>>>>>>> 14c71ad62ce04e3de2ac19ce5a498de239909e70
     break;
 
     case 7:
