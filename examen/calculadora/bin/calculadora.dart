@@ -10,6 +10,7 @@ import 'pares_impares.dart';
 import 'areas_geometricas.dart';
 
 void main(List<String> arguments) {
+  var n1, n2;
   var valid=validaciones();
   var con=constantes();
   var fib=fibonacci();
@@ -33,7 +34,7 @@ while(opc!=9){
   print('===========================================');
   print('|Seleccione una opcion del (1-9): '); 
   opc=int.parse(stdin.readLineSync().toString());
-  if(valid.esPositivo(opc)){
+  if(opc>0){
     switch(opc){
     case 0:
     break;
@@ -67,7 +68,11 @@ while(opc!=9){
     n1=int.parse(stdin.readLineSync().toString());
     print("Ingrese el límite superior");
     n2=int.parse(stdin.readLineSync().toString());
+<<<<<<< HEAD
+    pi.par_impar(n1,n2);
+=======
     pi.par_impar(a,b);
+>>>>>>> 14c71ad62ce04e3de2ac19ce5a498de239909e70
     break;
 
     case 7:
