@@ -1,13 +1,13 @@
 import 'package:calculadora/calculadora.dart' as calculadora;
 import 'dart:io';
-import 'validaciones.dart';
-import 'constantes.dart';
-import 'fibonacci.dart';
-import 'menu_helper.dart';
-import 'numeros_primos.dart';
-import 'operaciones_basicas.dart';
-import 'pares_impares.dart';
-import 'areas_geometricas.dart';
+import 'Validaciones.dart';
+import 'Constantes.dart';
+import 'Fibonacci.dart';
+import 'Menu_helper.dart';
+import 'Numeros_primos.dart';
+import 'Operaciones_basicas.dart';
+import 'Pares_impares.dart';
+import 'Areas_geometricas.dart';
 
 void main(List<String> arguments) {
   var n1, n2;
