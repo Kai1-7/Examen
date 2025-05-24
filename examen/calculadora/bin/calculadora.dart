@@ -7,9 +7,10 @@ import 'menu_helper.dart';
 import 'numeros_primos.dart';
 import 'operaciones_basicas.dart';
 import 'pares_impares.dart';
-import 'areas_geometricas';
+import 'areas_geometricas.dart';
 
 void main(List<String> arguments) {
+  var n1, n2;
   var valid=validaciones();
   var con=constantes();
   var fib=fibonacci();
@@ -33,7 +34,7 @@ while(opc!=9){
   print('===========================================');
   print('|Seleccione una opcion del (1-9): '); 
   opc=int.parse(stdin.readLineSync().toString());
-  if(valid.esPositivo(opc)){
+  if(opc>0){
     switch(opc){
     case 0:
     break;
@@ -58,7 +59,7 @@ while(opc!=9){
     print("Ingrese el límite inferior");
     n1=int.parse(stdin.readLineSync().toString());
     print("Ingrese el límite superior");
-    n2=int.parse(stding.readLineSync().toString());
+    n2=int.parse(stdin.readLineSync().toString());
     np.primos(n1, n2);
     break;
 
@@ -66,8 +67,8 @@ while(opc!=9){
     print("Ingrese el límite inferior");
     n1=int.parse(stdin.readLineSync().toString());
     print("Ingrese el límite superior");
-    n2=int.parse(stding.readLineSync().toString());
-    pi.par_impar(a,b);
+    n2=int.parse(stdin.readLineSync().toString());
+    pi.par_impar(n1,n2);
     break;
 
     case 7:

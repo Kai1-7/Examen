@@ -1,5 +1,5 @@
-import 'lib/constantes.dart';
-import 'lib/validaciones.dart';
+import 'constantes.dart';
+import 'validaciones.dart';
 
 void areas_geometricas(){
 
