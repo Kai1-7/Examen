@@ -2,6 +2,8 @@ import 'dart:io';
 import 'validaciones.dart';
  var valid=validaciones();
 
+void operaciones_basicas();
+
 void suma(){
   print('Ingrese el primer numero: ');
   String? n1=stdin.readLineSync();

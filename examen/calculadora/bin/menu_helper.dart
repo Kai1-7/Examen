@@ -1,5 +1,5 @@
 import 'dart:io';
-
+void menu_helper();
 void mostrarMenuPrincipal() {
   print('===== CALCULADORA MATEMATICA AVANZADA =====');
   print('1. Suma               -> Ingrese dos numeros para sumarlos');

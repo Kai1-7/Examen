@@ -10,6 +10,12 @@ import 'pares_impares.dart';
 
 void main(List<String> arguments) {
   var valid=validaciones();
+  var con=constantes();
+  var fib=fibonacci();
+  var mh=menu_helper();
+  var np=numeros_primos();
+  var ob=operaciones_basicas();
+  var pi=pares_impares();
  
   int opc=0;
 while(opc!=9){
@@ -30,16 +36,21 @@ while(opc!=9){
     switch(opc){
     case 0:
     break;
+    
     case 1:
+      ob.suma();
     break;
 
     case 2:
+    ob.resta();
     break;
 
     case 3:
+    ob.multiplicacion();
     break;
 
     case 4:
+    ob.division();
     break;
 
     case 5:
