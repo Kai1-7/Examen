@@ -1,7 +1,7 @@
 import 'package:calculadora/calculadora.dart' as calculadora;
 import 'dart:io';
 void main(List<String> arguments) {
-  opc=stdin.readLineSync();
+  var opc=stdin.readLineSync();
 do{
   print('===== CALCULADORA MATEMATICA AVANZADA =====');
   print('|1| Suma');
