@@ -1,3 +1,7 @@
+void validaciones(){
+  
+}
+
 bool esNumeroValido(String entrada) {
   return double.tryParse(entrada) != null;
 }
@@ -7,7 +11,7 @@ bool esEnteroValido(String entrada) {
 }
 
 bool esPositivo(double numero) {
-  if(esNumeroValido(numero)){
+  if(esNumeroValido(numero.toString())){
     return numero > 0;
   }else{
     return false;

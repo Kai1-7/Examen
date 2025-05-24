@@ -1,9 +1,9 @@
 import 'package:calculadora/calculadora.dart' as calculadora;
 import 'dart:io';
-
+import 'validaciones.dart';
 
 void main(List<String> arguments) {
-  
+  var valid=validaciones();
   int opc=0;
 while(opc!=9){
   print('===== CALCULADORA MATEMATICA AVANZADA =====');
@@ -19,7 +19,7 @@ while(opc!=9){
   print('===========================================');
   print('|Seleccione una opcion del (1-9): '); 
   opc=int.parse(stdin.readLineSync().toString());
-  if(true){
+  if(valid.esPositivo(opc)){
     switch(opc){
     case 0:
     break;
