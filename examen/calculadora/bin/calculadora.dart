@@ -1,6 +1,12 @@
 import 'package:calculadora/calculadora.dart' as calculadora;
 import 'dart:io';
 import 'validaciones.dart';
+import 'constantes.dart';
+import 'fibonacci.dart';
+import 'menu_helper.dart';
+import 'numeros_primos.dart';
+import 'operaciones_basicas.dart';
+import 'pares_impares.dart';
 
 void main(List<String> arguments) {
   var valid=validaciones();
