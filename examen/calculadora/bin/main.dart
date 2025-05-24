@@ -3,7 +3,7 @@ import 'package:calculadora/calculadora.dart' as calculadora;
 void main(List<String> arguments) {
   print('Hello world: ${calculadora.calculate()}!');
 }
-
+opc=stdin.readLineSync();
 do{
   print('===== CALCULADORA MATEMATICA AVANZADA =====');
   print('|1| Suma');
@@ -16,7 +16,8 @@ do{
   print('|8| Calculo de areas geomatricas');
   print('|9| Salir');
   print('===========================================');
-  print('|Seleccione una opcion del (1-9): '); opc;
+  print('|Seleccione una opcion del (1-9): '); 
+  opc;
 
   switch(opc){
     case 1:
