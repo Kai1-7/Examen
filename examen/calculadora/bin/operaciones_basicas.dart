@@ -1,5 +1,6 @@
 import 'dart:io';
 import 'validaciones.dart';
+ var valid=validaciones();
 
 void suma(){
   print('Ingrese el primer numero: ');
@@ -7,7 +8,7 @@ void suma(){
   print('Ingrese el segundo numero: ');
   String? n2=stdin.readLineSync();
 
-  if(n1 !=null && n2!=null){
+  if(valid.esEnteroValido(n1 !=null && n2!=null)){
     int num1=int.parse(n1);
     int num2=int.parse(n1);
     int suma=num1+num2;
@@ -24,7 +25,7 @@ void resta(){
   print('Ingrese el segundo numero: ');
   String? n2=stdin.readLineSync();
 
-  if(n1 !=null && n2!=null){
+  if(valid.esNumeroValido(n1 !=null && n2!=null)){
     int num1=int.parse(n1);
     int num2=int.parse(n1);
     int resta=num1-num2;
@@ -42,7 +43,7 @@ void multiplicacion(){
   print('Ingrese el segundo numero: ');
   String? n2=stdin.readLineSync();
 
-  if(n1 !=null && n2!=null){
+  if(valid.esEnteroValido(n1 !=null && n2!=null)){
     int num1=int.parse(n1);
     int num2=int.parse(n1);
     int mul=num1*num2;
@@ -60,7 +61,7 @@ void division(){
   print('Ingrese el segundo numero: ');
   String? n2=stdin.readLineSync();
 
-  if(n1 !=null && n2!=null){
+  if(valid.noEsCero(n1 !=null && n2!=null)){
     int num1=int.parse(n1);
     int num2=int.parse(n1);
     double div=num1/num2;
