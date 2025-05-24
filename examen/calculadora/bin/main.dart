@@ -1,9 +1,7 @@
 import 'package:calculadora/calculadora.dart' as calculadora;
-
+import 'dart:io';
 void main(List<String> arguments) {
-  print('Hello world: ${calculadora.calculate()}!');
-}
-opc=stdin.readLineSync();
+  opc=stdin.readLineSync();
 do{
   print('===== CALCULADORA MATEMATICA AVANZADA =====');
   print('|1| Suma');
@@ -51,5 +49,7 @@ do{
     print('Ingrese un numero del (1-9)');
   }
 } while(opc!=9);
+}
+
 
 
